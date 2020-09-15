@@ -1,6 +1,7 @@
 #pragma once
 #if defined __has_include && __has_include ("QMainWindow")
 #include <QFileDialog>
+#include <QMessageBox>
 #endif
 
 #include <array>
@@ -15,10 +16,9 @@
 #include <filesystem>
 #include <optional>
 #include <map>
+#include <iterator>
 //#include <execution>
 
 #include "bits_operations/bits_operations.hpp"
 #include "idxs/idxs.hpp"
 #include "dvbs2_mono/dvbs2_mono.hpp"
-
-namespace fs = std::filesystem;
